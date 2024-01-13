@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font-main: "Public Sans", sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, a{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    color: #000000;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 45px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1{
+    font-size: 20px;
+    font-family: var(--font-main);
+    font-weight: 800;
+    color: #000000;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+    gap: 51px;
+    font-family: var(--font-main);
+    font-weight: 400;
+}
+
+.menu .lista{
+    display: flex;
+    gap: 30px; 
+}
+
+
+.menu .lista li a{
+    font-family: var(--font-main);
+    font-weight: 400;
+    transition: 0.3s ease-in-out;
+}
+
+.menu .lista li a:hover{
+    background-color: #5BC241;
+    border: 10px solid #5BC241;
+    color: #fff;
+}
+
+a.btn{
+    background-color: #5BC241;
+    border-radius: 1em;
+    border: 10px solid #5BC241;
+    color: white;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
